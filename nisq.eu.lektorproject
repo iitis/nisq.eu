@@ -1,0 +1,5 @@
+[project]
+name = nisq.eu
+
+[servers.production]
+target = ghpages://lpawela/nisq.eu?cname=nisq.eu
