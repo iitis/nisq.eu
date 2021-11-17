@@ -1,2 +1,6 @@
 name: Build
-uses: VaultVulp/lektor-action@v1.0.2
+on:
+  - push
+jobs:
+  build:
+    uses: VaultVulp/lektor-action@v1.0.2
