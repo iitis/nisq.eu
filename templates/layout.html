@@ -25,8 +25,9 @@
             <a class="nav-link {% if this._path == '/' %}active{% endif
               %}" href="{{ '/'|url }}">Home</a>
             {% for href, title in [
+              ['/teams', 'Teams'],
+              ['/publications', 'Publications'],
               ['/contact', 'Contact'],
-              ['/teams', 'Teams']
             ] %}
             <a class=" nav-link{% if this.is_child_of(href) %} active{% endif
               %}" href="{{ href|url }}">{{ title }}</a>
