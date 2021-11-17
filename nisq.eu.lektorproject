@@ -2,4 +2,4 @@
 name = nisq.eu
 
 [servers.production]
-target = ghpages+https://iitis/nisq.eu?cname=nisq.eu
+target = ghpages+ssh://iitis/nisq.eu?cname=nisq.eu
