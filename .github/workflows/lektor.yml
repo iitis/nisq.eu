@@ -1,8 +1,0 @@
-name: lektor
-on:
-  - push
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: VaultVulp/lektor-action@v1.0.2
