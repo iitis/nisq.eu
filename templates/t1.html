@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <h3 class="text-left">Quantum Computing Group</h3>
+    <h5 class="text-left">Leader: Michał Oszmaniec</h5>
+    <h5 class="text-left">Members</h5>
+    <p class="text-justify">
+      <ul class="text-justify">
+        <li>dr hab. Michał Oszmaniec (group leader)</li>
+        <li>dr hab. Adam Sawicki (senior researcher)</li>
+        <li>dr Daniel McNulty (postdoc)</li>
+        <li>Filip MAciejewski PhD student</li>
+        <li>Susane Calegari (PhD student)</li>
+        <li>Tomasz Rybotycki (PhD student)</li>
+        <li>Jakub Korsak (master student)</li>
+      </ul>
+    </p>
+    <br>
+    <p class="text-justify">
+      We use tools of convex geometry, group theory and high-dimensional
+      analysis to understand the power and limitations of near-term quantum
+      computers. In particular, we are interested in the following  topics:
+      <ul class="text-justify">
+      <li>
+        Certification and characterization of prototypes of quantum computers in
+        order to develop effective methods of error mitigation on these devices.
+      </li>
+      <li>
+        Application of generalized quantum measurements (POVMs) in new quantum
+        algorithms and development of methods for their effective implementation
+        on realistic devices.
+      </li> 
+      <li>
+        Mathematical foundations of quantum computing
+        (effective compilation of quantum gates, universal quantum computation,
+        new proposals for quantum advantage, classical simulation of noisy quantum
+        computations)
+      </li>
+      <a href="{{ '/static/downloads/agenda/oszmaniec.pdf' | asseturl }}">Extended research agenda</a>
+    </p>
+    <br>
+    <p class="text-justify">
+      Team website available at <a href="https://quantin.pl">quantin.pl</a>.
+    </p>
+
+{% endblock %}
