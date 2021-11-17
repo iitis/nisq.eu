@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <h3 class="text-left">Quantum Resources Group</h3>
+    <h5 class="text-left">Leader: Kamil Korzekwa</h5>
+    <h5 class="text-left">Members</h5>
+    <p class="text-justify">
+      <ul class="text-justify">
+        <li>dr Kamil Korzekwa (group leader)</li>
+        <li>Oliver Reardon-Smith (postdoc)</li>
+        <li>Roberto Salazar (postdoc)</li>
+        <li>Alexssandre de Oliveira Junior (PhD student)</li>
+        <li>Piotr Przedwojski (BSc student)</li>
+      </ul>
+    </p>
+    <br>
+    <p class="text-justify">
+      Recent progress in experimental control over noisy intermediate-scale
+      quantum (NISQ) systems may soon bring the advent of new technologies,
+      whose operation will be based on purely quantum effects and that will be
+      able to overcome current limitations of electromechanical systems and
+      information processors. From a theoretical point of view, the first step
+      to achieve this is to identify which components of quantum theory can
+      provide such an advantage. In other words, we need to recognise what
+      actually constitutes quantum resources. Once the relevant resources are
+      identified, the next step is to characterise them, i.e. understand when
+      different resources can be interconverted and how efficiently this can be
+      done, which is captured by the mathematical framework of resource
+      theories. Finally, there is also the third essential step: finding optimal
+      ways to experimentally implement protocols exhibiting quantum advantage,
+      while taking into account realistic constraints.
+      <a href="{{ '/static/downloads/agenda/korzekwa.pdf' | asseturl }}">Extended research agenda</a>
+    </p>
+    <br>
+    <p class="text-justify">
+      Team website available <a href="https://www.quantum-resources.com/">here</a>.
+    </p>
+
+{% endblock %}

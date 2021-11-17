@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <h3 class="text-left">Quantum Machine Learning Group</h3>
+    <h5 class="text-left">Leader: Zbigniew Puchała</h5>
+    <h5 class="text-left">Members</h5>
+    <p class="text-justify">
+      <ul class="text-justify">
+        <li>dr hab. Zbigniew Puchała Oszmaniec (group leader)</li>
+        <li>dr hab. inż. Łukasz Pawela (senior researcher)</li>
+        <li>dr inż. Ryszard Winiarczyk (industry contact)</li>
+        <li>dr hab. Krzysztof Domino (postdoc)</li>
+        <li>dr Bartłomiej Gardas (postdoc)</li>
+        <li>dr Hanna Wojewódka-Ściążko (postdoc)</li>
+        <li>Paulina Lewandowska (PhD student)</li>
+        <li>Aleksandra Krawiec (PhD student)</li>
+        <li>Ryszard Kukulski (PhD student)</li>
+      </ul>
+    </p>
+    <br>
+    <p class="text-justify">
+      <a href="{{ '/static/downloads/agenda/puchala.pdf' | asseturl }}">Extended research agenda</a>
+    </p>
+    <br>
+    <p class="text-justify">
+      Team website available <a href="https://www.iitis.pl/pl/project/komputery-kwantowe-w-najbli%C5%BCszej-przysz%C5%82o%C5%9Bci-wyzwania-optymalne-implementacje-i-zastosowania">here</a>.
+    </p>
+
+{% endblock %}
