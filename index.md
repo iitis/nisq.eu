@@ -1,3 +1,4 @@
 ---
-redirect_to: "https://nisq.pl"
+
 ---
+<script> window.location.replace("http://stackoverflow.com"); </script>
