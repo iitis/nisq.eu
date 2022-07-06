@@ -1,4 +1,4 @@
 ---
 
 ---
-<script> window.location.replace("http://stackoverflow.com"); </script>
+<script> window.location.replace("https://nisq.eu"); </script>
