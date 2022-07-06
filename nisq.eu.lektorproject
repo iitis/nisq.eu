@@ -1,5 +1,0 @@
-[project]
-name = nisq.eu
-
-[servers.production]
-target = ghpages+ssh://iitis/nisq.eu?cname=nisq.eu

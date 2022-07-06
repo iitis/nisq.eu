@@ -1,0 +1,19 @@
+
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            nisq.eu
+tagline:          ''
+description:      ''
+repository:       iitis/nisq.eu
+domain:           nisq.eu
+url:              https://nisq.eu
+
+author:
+  name:           'Lukasz Pawela'
